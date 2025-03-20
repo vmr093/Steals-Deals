@@ -226,7 +226,7 @@ header {
 
 /*ABOUT*/
 
-.about { padding: var(--section-padding); background: var(--cultured); }
+.about { padding: 40px 0;; background: var(--cultured); }
     .about .section-title, .about-content .section-text:not(last-child), .about-bottom-title, .about-bottom-item:first-child { margin-bottom: 40px; }
     .about .section-title, .about-bottom-title { text-align: center; }
 .about-top, .about-banner {  margin-top: 20px;}
