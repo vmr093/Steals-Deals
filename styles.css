@@ -192,7 +192,7 @@ header {
 .hero-text { color: var(--sonic-silver); font-size: var(--fs-10); }
     .hero-text span:not(:last-child) { margin-bottom: 10px; }
 
-.hero-banner img { width: 100%; }
+.hero-banner img { display: flex; justify-content: flex-start;  margin-left: 50px;width: 100%; }
 
 /*SERVICE*/
 
