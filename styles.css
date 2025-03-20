@@ -58,10 +58,11 @@ body { background: var(--white); }
 
         /* Logo Styling */
 .logo img {
-    max-width: 300px; /* Adjust the width as needed */
+    max-width: 400px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure proper alignment */
-    margin: 0 auto; /* Center the logo horizontally */
+    display: block; 
+    margin: 0;/* Ensure proper alignment */
+    margin-left: -30px; 
 }
 /* Styling for the "Sign up to stay in the loop" text */
 .hero-subtitle {
@@ -192,7 +193,17 @@ header {
 .hero-text { color: var(--sonic-silver); font-size: var(--fs-10); }
     .hero-text span:not(:last-child) { margin-bottom: 10px; }
 
-.hero-banner img { display: flex; justify-content: flex-start;  margin-left: 50px;width: 100%; }
+.hero-banner img { display: flex; justify-content: flex-start;  margin-left: 20px;width: 100%; }
+
+@media (max-width: 768px) {
+    .hero-banner {
+        padding: 10px; /* Add padding for smaller screens */
+    }
+
+    .hero-banner img {
+        max-width: 90%; /* Slightly reduce the image width */
+    }
+}
 
 /*SERVICE*/
 
