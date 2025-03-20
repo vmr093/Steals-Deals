@@ -207,9 +207,9 @@ header {
 
 /*SERVICE*/
 
-.service { padding: var(--section-padding); text-align: center; }
+.service { padding: var(--section-padding); text-align: center; padding-bottom: 200px; }
     .service .section-title {  margin-top: 55px; margin-bottom: 15px; }
-    .service .section-text { margin-bottom: 45px; text-align: center; }
+    .service .section-text { margin-bottom: 45px; text-align: center; font-size: var(--fs-8); line-height: 1.4; }
 
     .service .card-icon {
         width: max-content;
@@ -219,18 +219,18 @@ header {
         margin-bottom: 20px;
     }
 
-    .service .card-title { margin-bottom: 12px; }
+    .service .card-title { margin-bottom: 12px; color: hsl(0, 100%, 30%);}
 
 .service-list { display: grid; gap: 40px; }
-.card-text { color: var(--sonic-silver); line-height: 1.6; max-width: 250px; margin-inline: auto; }
+.card-text { color: var(--sonic-silver); line-height: 1.6; max-width: 250px; margin-inline: auto; font-size: var(--fs-5); }
 
 /*ABOUT*/
 
 .about { padding: var(--section-padding); background: var(--cultured); }
-    .about .section-title, .about-content .section-text:not(last-child), .about-bottom-title, .about-bottom-item:first-child { margin-bottom: 20px; }
+    .about .section-title, .about-content .section-text:not(last-child), .about-bottom-title, .about-bottom-item:first-child { margin-bottom: 40px; }
     .about .section-title, .about-bottom-title { text-align: center; }
-.about-top, .about-banner { margin-bottom: 40px; }
-.about-banner img { width: 100%; }
+.about-top, .about-banner {  margin-top: 20px;}
+.about-banner img { width: 100%;  margin-top: 200px;}
 .about-bottom-list { margin-left: 18px; }
 .about-bottom-item { list-style: disc; }
 .section-text { text-align: justify; }
